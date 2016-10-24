@@ -1,0 +1,59 @@
+.active
+{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	margin: 1px;
+	background-color: red;
+}
+
+.atrest
+{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	margin: 1px;
+	background-color: gray;
+}
+
+
+.main
+{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	background: black;
+}
+
+.score
+{
+	height: 100px;
+	position: absolute;
+	background-color: lightgray;
+	color: orangered;
+	left: 200px;
+	font-family: "微软雅黑";
+	font-size: 28px;
+	padding-left: 20px;
+}
+.gameover{
+	position: absolute;
+	z-index: 2;
+	left: 200px;
+	height: 75px;
+	background: lightgray;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+	display: none;
+}
+.intro{
+	position: absolute;
+	top: 8px;
+	font-size: 14px;
+	text-align: left;
+	font-family: "微软雅黑";
+	color: orangered;
+	padding-left: 20px;
+	background-color: lightgray;
+}
